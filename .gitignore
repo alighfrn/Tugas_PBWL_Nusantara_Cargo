@@ -1,0 +1,20 @@
+# Environment & Local Server
+.env
+.env.local
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

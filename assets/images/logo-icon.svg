@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2563eb" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base with Glow -->
+  <rect x="6" y="6" width="88" height="88" rx="24" fill="url(#nceGrad)" filter="url(#neonGlow)"/>
+  
+  <!-- Subtle Inner Glass Layer -->
+  <rect x="7" y="7" width="86" height="86" rx="23" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+
+  <!-- Speed Wings / Forward Arrows on Top Right -->
+  <path d="M68 22 L80 34 L72 34 L62 24 Z" fill="url(#accentGrad)" opacity="0.95"/>
+  <path d="M74 18 L86 30 L80 30 L70 20 Z" fill="#fde047" opacity="0.8"/>
+
+  <!-- Stylized Monogram NCE -->
+  <!-- N -->
+  <path d="M22 68 V32 H28 L40 56 V32 H46 V68 H40 L28 44 V68 H22 Z" fill="#ffffff" font-weight="900"/>
+  
+  <!-- C -->
+  <path d="M63 38 C59 31 49 31 47 41 C45 52 49 59 63 60 C64 60 65 60 66 59 V53 C64 54 62 54 60 54 C53 54 52 48 53 43 C54 37 59 36 63 41 Z" fill="#ffffff"/>
+
+  <!-- E Express with Speed Bars -->
+  <path d="M67 68 V32 H82 V38 H73 V47 H80 V53 H73 V62 H83 V68 H67 Z" fill="#ffffff"/>
+  
+  <!-- Dynamic Fast-Forward Accent Swoosh under monogram -->
+  <path d="M22 75 C45 74 65 72 82 66 L80 70 C64 76 43 78 22 78 Z" fill="url(#accentGrad)"/>
+</svg>
