@@ -121,11 +121,3 @@ Tugas_PBWL_Nusantara_Cargo/
 | **Operator Loket** | `operator` | `adminpassword` |
 
 ---
-
-## 👨‍💻 Informasi Akademik
-
-- **Mata Kuliah:** Pemrograman Berbasis Web Lanjutan (PBWL)
-- **Program Studi:** Sistem Informasi
-- **Fakultas:** Sains dan Teknologi
-- **Perguruan Tinggi:** Universitas Islam Negeri Sumatera Utara (UINSU) Medan
-- **Dosen Pengampu:** Suendri, M.Kom
